@@ -1,0 +1,492 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+header, body, footer {
+        background-color:black;
+}
+
+p {
+	color: #FFFFFF;
+}
+
+header {
+    padding: 15px 0 25px 0;
+    text-align: center;
+    width: 900px;
+}
+
+header a, header a:visited {
+	font-family:"Courier New", serif;
+        color: #585858;
+	text-decoration: none;
+	letter-spacing: -1px;
+        font-size: large;
+}
+
+header a.focus{
+    color: #FFFFFF;
+}
+
+header a:hover {
+    color: #FFFFFF;
+}
+
+#header_logo {
+    float: left;
+    padding: 10px 0 0 0;
+}
+
+#header_lines {
+    float: left;
+    padding: 0 3px 0 9px;
+}
+
+#header_nav{
+}
+
+header ul {
+	list-style: none;
+	text-align: center;
+        padding: 55px 0 0 0;
+}
+
+header ul li {
+	display: inline;
+	text-align: center;
+	padding: 0 15px 0;
+}
+
+#content {
+    padding: 45px 0 0 0;
+    width: 900px;
+}
+
+#bio_image {
+    float: left;
+    padding: 0 10px 0 10px;
+}
+
+#multimedia_image {
+    float: left;
+    padding: 31px 10px 0 10px;
+}
+
+#shows_image {
+    float: left;
+    padding: 0 10px 0 10px;
+}
+
+#contact_image {
+    padding: 31px 10px 0 10px;
+}
+
+#bio_content{
+    width: 900px;
+    height: 425px;
+    background-image:url('../images/bio_image_background.png');
+    background-repeat: no-repeat;
+}
+
+#bio_content h1{
+    margin-left: 510px;
+    padding: 3px 0 3px 12px;
+    width: 280px;
+    background-color: #E5322D;
+    color: white;
+    font-family:"Courier New";
+    border-radius: 5px;
+}
+
+#bio_content p{
+    margin-left: 440px;
+    width: 400px;
+    background-color: #E5322D;
+    color: white;
+    font-family:"Courier New";
+    font-size: 15px;
+    padding: 15px 15px 5px 15px;
+    border-radius: 5px;
+}
+
+#bio_content a{
+    background-color: #E5322D;
+    color: white;
+    font-family:"Courier New";
+    font-size: 15px;
+    text-decoration:underline;
+}
+
+#multimedia_content {
+    margin: 20px 0 50px 30px;
+}
+
+#mult_options_nav {
+    margin: 35px 0 0 0;
+    float: left;
+    width: 130px;
+}
+
+#mult_options_nav button {
+    margin: 5px 0 0 0;
+    display: block;
+    width: 120px;
+    height: 30px;
+    background: #E5322D;
+    color: white;
+    font-family:"Courier New";
+    font-size: 16px;
+    font-weight:bold;
+    border-radius: 5px;
+}
+
+#video_message a, a:visited {
+    font-family:"Courier New";
+    color: white;
+    text-decoration:underline;
+}
+
+#video_message p, a:hover {
+    font-family:"Courier New";
+    color: white;
+    text-decoration:none;
+}
+
+#mult_content {
+    width: 780px;
+    height: 355px;
+    text-align: center;
+    color: white;
+    font-family:"Courier New";
+}
+
+#mult_content a, a:visited {
+    color: white;
+    text-decoration:underline;
+}
+
+#mult_content a:hover {
+    color: white;
+    text-decoration:none;
+}
+
+#video_gallery {
+    background: #E5322D;
+    border-radius: 5px;
+    margin: 20px 0 0 0;
+    padding: 5px 0 0 0;
+}
+
+#shows_content {
+    margin: 20px 0 10px 30px;
+}
+
+#shows_options_nav {
+    margin: 25px 0 0 0;
+    float: left;
+    width: 160px;
+}
+
+#shows_options_nav button {
+    margin: 5px 0 0 0;
+    display: block;
+    width: 150px;
+    height: 30px;
+    background: #E5322D;
+    color: white;
+    font-family:"Courier New";
+    font-size: 16px;
+    font-weight:bold;
+    border-radius: 5px;
+}
+
+#shows_descriptions{
+    width: 650px;
+    height: 395px;
+    text-align: center;
+    margin-left: 180px;
+}
+
+#revista{
+    background-image:url('../images/revista_image_background.png');
+    width: 650px;
+    height: 395px;
+    border-radius: 5px;
+}
+
+#revista h1{
+    margin-left: 320px;
+    padding: 3px;
+    width: 310px;
+    background-color: #E5322D;
+    color: white;
+    font-family:"Courier New";
+    font-size: 19px;
+    border-radius: 5px;
+}
+
+#revista p{
+    margin-left: 285px;
+    padding: 3px;
+    width: 353px;
+    background-color: #E5322D;
+    color: white;
+    font-family:"Courier New";
+    font-size: 15px;
+    text-align:left;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#seventies{
+    background-image:url('../images/seventies_image_background.png');
+    width: 650px;
+    height: 395px;
+    border-radius: 5px;
+    margin-left: 25px;
+}
+
+#seventies h1{
+    margin-left: 370px;
+    padding: 3px;
+    width: 150px;
+    background-color: #E5322D;
+    color: white;
+    font-family:"Courier New";
+    font-size: 19px;
+    border-radius: 5px;
+}
+
+#seventies p{
+    margin-left: 255px;
+    padding: 3px;
+    width: 353px;
+    background-color: #E5322D;
+    color: white;
+    font-family:"Courier New";
+    font-size: 15px;
+    text-align:left;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#prensa_content {
+    margin: 30px 0 0 30px;
+}
+
+#options_nav {
+    margin: 25px 0 0 0;
+    float:left;
+}
+
+#options_nav button {
+    margin: 5px 0 0 0;
+    display: block;
+    width: 180px;
+    height: 30px;
+    background: #E5322D;
+    color: white;
+    font-family:"Courier New";
+    font-size: 16px;
+    font-weight:bold;
+    border-radius: 5px;
+}
+
+#prensa_links {
+    width: 500px;
+    height: 395px;
+    background-image:url('../images/prensa_image_background.png');
+}
+
+#prensa_links a, a:visited {
+    color: white;
+    text-decoration:underline;
+    font-family:"Times New Roman";    
+}
+
+#prensa_links a:hover {
+    color: white;
+    text-decoration:none;
+    font-family:"Times New Roman";    
+}
+
+#contact_content{
+    width: 800px;
+    height: 425px;
+    text-align: center;
+    background-image:url('../images/contact_image_background.png');
+}
+
+#contact_content p{
+    margin: 80px 0 0 450px;
+    padding: 5px;
+    width: 300px;
+    background-color: #E5322D;
+    color: white;
+    font-family:"Courier New";
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#contact_content a{
+    background-color: #E5322D;
+    color: white;
+    font-family:"Courier New";
+    font-size: 17px;
+    text-decoration:underline;
+}
+
+#contact_content b{
+    background-color: #E5322D;
+    color: white;
+    font-family:"Courier New";
+    font-size: 20px;
+}
+
+footer {
+    color: #FFFFFF;
+    padding: 25px 0 0 0;
+}
+
+footer a {
+    text-decoration: underline;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Times New Roman";
+}
+
+footer a:hover {
+    font-family: "Times New Roman";
+    text-decoration: none;
+}
+
+footer a:visited {
+    font-family: "Times New Roman";
+    text-decoration: underline;
+    color: #848484;
+}
+
+#gallery {
+    margin: 0 0 0 120px;
+}
+
+/* line 317, ../sass/screen.sass */
+.imageRow {
+  *zoom: 1;
+  margin: 5px 0;
+}
+/* line 38, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.imageRow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 320, ../sass/screen.sass */
+.imageRow .single {
+  float: left;
+}
+/* line 322, ../sass/screen.sass */
+.imageRow .single a {
+  float: left;
+  display: block;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 5px;
+  line-height: 1em;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+  margin-right: 40px;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+/* line 332, ../sass/screen.sass */
+.imageRow .single a img {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+/* line 335, ../sass/screen.sass */
+.imageRow .single a:hover {
+  background-color: #8ad459;
+}
+/* line 337, ../sass/screen.sass */
+.imageRow .set {
+  float: left;
+  background: rgba(255, 255, 255, 0.2);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+/* line 343, ../sass/screen.sass */
+.imageRow .set:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+/* line 346, ../sass/screen.sass */
+.imageRow .set .single a {
+  background: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  margin-right: 0;
+}
+/* line 351, ../sass/screen.sass */
+.imageRow .set .single a:hover {
+  background-color: #8ad459;
+  -webkit-box-shadow: 0 -1px 0 0 rgba(255, 255, 255, 0.2), 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 -1px 0 0 rgba(255, 255, 255, 0.2), 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 -1px 0 0 rgba(255, 255, 255, 0.2), 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+}
+/* line 355, ../sass/screen.sass */
+.imageRow .set .single.first a {
+  -moz-border-radius-topleft: 4px;
+  -webkit-border-top-left-radius: 4px;
+  -ms-border-top-left-radius: 4px;
+  -o-border-top-left-radius: 4px;
+  border-top-left-radius: 4px;
+  -moz-border-radius-bottomleft: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  -ms-border-bottom-left-radius: 4px;
+  -o-border-bottom-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+/* line 358, ../sass/screen.sass */
+.imageRow .set .single.last a {
+  -moz-border-radius-topright: 4px;
+  -webkit-border-top-right-radius: 4px;
+  -ms-border-top-right-radius: 4px;
+  -o-border-top-right-radius: 4px;
+  border-top-right-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+  -ms-border-bottom-right-radius: 4px;
+  -o-border-bottom-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
